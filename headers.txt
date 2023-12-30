@@ -1,0 +1,18 @@
+HTTP Headers are an important part of the API request and response as they represent the
+ meta-data associated with the API request and response. Headers carry information for:
+
+Request and Response Body
+Request Authorization
+Response Caching 
+Response Cookies
+
+Other than the above categories HTTP headers also carry a lot of other information around 
+HTTP connection types, proxies etc. Most of these headers are for management of connections 
+between client, server and proxies and do not require explicit validation through testing
+
+Headers are mostly classified as request headers and response headers, know the major request
+ and response headers.
+
+ some methods and properties
+ 1-req.headers
+ 2-res.setHeader(name(string),value(string))

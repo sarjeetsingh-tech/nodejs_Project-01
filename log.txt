@@ -1,0 +1,20 @@
+----content-----
+
+//GET rquest
+
+------sends json data from server side----------
+/api/users
+/api/users/1
+/api/users/2---->last field is dynamic
+-----sends rendered html form server side------
+/users
+/users/1
+/users/2------?last field is dynamic
+
+
+
+//POST request
+
+
+
+/users/:id--->here id is dynamic route or can be said as variable
